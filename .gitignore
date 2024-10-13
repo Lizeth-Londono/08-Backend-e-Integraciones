@@ -1,0 +1,5 @@
+# Esto es para ignorar archivos y carpetas de Visual Studio
+.vs/
+*.vsidx
+".vs/" 
+"*.vsidx" 
