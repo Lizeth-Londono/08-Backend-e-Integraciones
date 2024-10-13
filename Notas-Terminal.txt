@@ -1,0 +1,56 @@
+Microsoft Windows [Versión 10.0.22631.4317]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\LIZETH LONDOÑO MARIN>cd C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>echo ".vs/" >> .gitignore
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>echo "*.vsidx" >> .gitignore
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git add .
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git commit -m "Añadir archivo .gitignore y excluir archivos innecesarios"
+[master (root-commit) 8b92b85] A├▒adir archivo .gitignore y excluir archivos innecesarios
+ 4 files changed, 144 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 data.js
+ create mode 100644 routes.js
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git branch 08-Backend-e-Integraciones
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git checkout 08-Backend-e-Integraciones
+Switched to branch '08-Backend-e-Integraciones'
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git branch
+* 08-Backend-e-Integraciones
+  master
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git status
+On branch 08-Backend-e-Integraciones
+nothing to commit, working tree clean
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git remote add origin https://github.com/Lizeth-Londono/08-Backend-e-Integraciones.git
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git branch -M main
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.73 KiB | 886.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Lizeth-Londono/08-Backend-e-Integraciones.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\LIZETH LONDOÑO MARIN\Desktop\ESTRUCTURAS DE DATOS Y ALGORITMOS 2\08-Backend-e-Integraciones>
